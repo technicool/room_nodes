@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Wavelength Calculator</title>
+		<script data-main="js/app" src="js/lib/require.js"></script>
+	</head>
+	<body>
+		<h1>Room Resonant Frequency Calculator</h1>
+		<p>Enter the size of your room <b>in meters</b> to find the resonant frequencies.</p>
+		
+		<form id="sizeForm">
+		<input id="width" value="3.2" placeholder="Enter width in meters"/>
+		<input id="length" value="4.0" placeholder="Enter width in meters"/>
+		<input id="height" value="2.8" placeholder="Enter width in meters"/>
+		<button class="btn">Calculate</button>
+		</form>
+		
+		<hr/>
+		<table>
+		<thead><tr>
+			<th>Frequencies</th>
+		</thead><tbody id="resultTable">
+		</tbody>
+		</table>
+	</body>
+</html>
